@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem2
 {
-    internal class Solution
+    public class Solution
     {
         public bool IsValid(string s)
         {
