@@ -10,7 +10,7 @@ namespace Problem2
     {
         static void Main(string[] args)
         {
-            Console.Write(new Solution().IsValid("{(({[]}))}"));
+            Console.Write(new Solution().IsValid("(())"));
             Console.ReadLine();
         }
     }

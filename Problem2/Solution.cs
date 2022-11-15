@@ -19,7 +19,7 @@ namespace Problem2
                 else if (c == ']' && openParen.Count > 0 && openParen.Peek() == '[') openParen.Pop();
                 else return false;
             }
-            return true;
+            return openParen.Count == 0;
         }
     }
 }
